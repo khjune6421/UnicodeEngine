@@ -1,5 +1,8 @@
 # Visual Studio files
 .vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
 
 # Build outputs
 x64/
@@ -10,7 +13,6 @@ Release/
 */Release/
 
 # Precompiled Headers
-*.gch
 *.pch
 
 # Compiled libraries
@@ -19,6 +21,3 @@ Release/
 
 # Executables
 *.exe
-
-# Log files
-*.log
