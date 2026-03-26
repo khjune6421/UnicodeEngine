@@ -1,0 +1,24 @@
+# Visual Studio files
+.vs/
+
+# Build outputs
+x64/
+Win32/
+Debug/
+Release/
+*/Debug/
+*/Release/
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled libraries
+*.lib
+*.dll
+
+# Executables
+*.exe
+
+# Log files
+*.log
