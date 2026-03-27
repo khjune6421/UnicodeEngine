@@ -6,4 +6,5 @@
   <Project Path="Client/Client.vcxproj" Id="9d1940af-fb3d-488b-b543-ac66641bef29" />
   <Project Path="Engine/Engine.vcxproj" Id="1e0b1f5f-8609-4c38-ab4c-7b90585d9a6d" />
   <Project Path="Renderer/Renderer.vcxproj" Id="c114d600-71cc-4e2c-a264-0c1cf2b80b5c" />
+  <Project Path="System/System.vcxproj" Id="34ea62d9-a860-4861-8388-22b50fdc9c1e" />
 </Solution>
