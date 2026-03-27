@@ -1,5 +1,7 @@
 #include "stdafx.h"
 
+#include "../System/RNG.h"
+
 int main()
 {
     SetConsoleCP(CP_UTF8);
@@ -12,6 +14,7 @@ int main()
 	}
 
     std::wcout << L"ㄴㅇㄴㄴㄴㄴㄴㄴㄴㄻㄹ" << std::endl;
+	std::wcout << L"Random integer between 1 and 100: " << Random(1, 100) << std::endl;
 
     return 0;
 }
