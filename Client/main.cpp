@@ -1,7 +1,5 @@
 #include "stdafx.h"
 
-#include "../System/RNG.h"
-
 int main()
 {
     SetConsoleCP(CP_UTF8);

@@ -1,4 +1,5 @@
 #pragma once
+#include <random>
 
 template <typename T> requires std::is_arithmetic_v<T>
 T Random(T min, T max)
