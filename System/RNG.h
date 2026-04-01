@@ -1,7 +1,7 @@
 #pragma once
 
 template <typename T> requires std::is_arithmetic_v<T>
-T Random(T min, T max) // Is this too micro-optimized?
+T Random(T min, T max)
 {
 	static std::mt19937 mt{ std::random_device{}() };
 
