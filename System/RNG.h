@@ -8,13 +8,13 @@ T Random(T min, T max)
 
 	if constexpr (std::is_integral_v<T>)
 	{
-		static std::uniform_int_distribution<T> dist;
+		static std::uniform_int_distribution<T> dist = {};
 
 		return dist(mt, typename decltype(dist)::param_type{ min, max });
 	}
 	else
 	{
-		static std::uniform_real_distribution<T> dist;
+		static std::uniform_real_distribution<T> dist = {};
 
 		return dist(mt, typename decltype(dist)::param_type{ min, max });
 	}
